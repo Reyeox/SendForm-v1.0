@@ -1,0 +1,72 @@
+body{
+    margin: 2% 5% 5% 5%;
+    font-family: 'Do Hyeon', sans-serif;
+    background: #282a2a;
+    color:white;
+}
+.brand {
+    text-align: left;
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+    margin: 5%;
+}
+.brand:hover{
+    background: #eded;
+    border-radius: 4px;
+}
+.navbar{
+    background: #f1f0f0;
+    border-radius: 20px;
+    padding: 5px;
+}
+.nav{
+    text-align: right;
+    list-style: none;
+    display: inline-flex;
+}
+.nav-item{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    line-height: 2;
+    margin-right: 15px;
+}
+.nav-item:hover{
+    background: #eded;
+    border-radius: 4px;
+    color: #282a2a;
+    padding: 0px 4px 0px 4px;
+}
+.menu-right{
+    position: absolute;
+    right: 20%;
+    top: 2.5%
+}
+.other-class{
+    text-align:center;
+    display: table-caption;
+}
+.form-wrap{
+    position: absolute;
+    top: 50%; /* Buscamos el centro horizontal (relativo) del navegador */
+    left: 50%; /* Buscamos el centro vertical (relativo) del navegador */
+    width: 600px; /* Definimos el ancho del objeto a centrar */
+    height: 400px; /* Definimos el alto del objeto a centrar */
+    margin-top: -200px; /* Restamos la mitad de la altura del objeto con un margin-top */
+    margin-left: -300px; /* Restamos la mitad de la anchura del objeto con un margin-left */
+    background: #f1f0f0;
+    border-radius: 4px;
+    padding: 20px;
+    color: #282a2a;
+}
+input{
+    width: 600px;
+}
+textarea{
+    width: 600px !important;
+}
